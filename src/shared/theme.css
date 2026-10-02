@@ -1,0 +1,74 @@
+/* TabBackup identity. Asset generation reads the --brand-* literals here. */
+:root {
+  --brand-text: #f7f7f8;
+  --brand-background: #0b0d12;
+  --brand-primary: #6366f1;
+  --brand-secondary: #181b25;
+  --brand-success: #22c55e;
+  --brand-muted: #aeb4c4;
+
+  /* Shared interactive colors; on-primary passes 4.5:1 on the exact indigo. */
+  --primary: var(--brand-primary);
+  --primary-hover: #818cf8;
+  --on-primary: #030407;
+  --focus: var(--brand-primary);
+  --control-line: #7c8499;
+  --danger-fill: #b91c1c;
+  --danger-hover: #991b1b;
+  --on-danger: var(--brand-text);
+  --backdrop: #0b0d1280;
+  --dialog-shadow: 0 24px 90px #0b0d1233;
+
+  /* Light theme follows the existing system preference behavior. */
+  --bg: var(--brand-text);
+  --surface: #ffffff;
+  --ink: var(--brand-secondary);
+  --muted: #565d70;
+  --line: #d8dbe4;
+  --soft: #eef0f4;
+  --primary-text: #4f46e5;
+  --primary-soft: #eef0ff;
+  --success: var(--brand-success);
+  --success-text: #166534;
+  --danger: #b91c1c;
+  --warning: #a34b08;
+  --shadow: 0 8px 32px #0b0d1210;
+
+  /* Saved Chrome group colors are user metadata, independent of branding. */
+  --group-blue: #2563eb;
+  --group-red: #dc2626;
+  --group-yellow: #a16207;
+  --group-purple: #9333ea;
+  --group-pink: #db2777;
+  --group-orange: #c2410c;
+  --group-cyan: #0e7490;
+  --group-grey: #64748b;
+  --group-green: #15803d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--brand-background);
+    --surface: var(--brand-secondary);
+    --ink: var(--brand-text);
+    --muted: var(--brand-muted);
+    --line: #343949;
+    --soft: #252938;
+    --primary-text: #a5b4fc;
+    --primary-soft: #282b50;
+    --success-text: var(--success);
+    --danger: #fca5a5;
+    --warning: #fbbf24;
+    --shadow: none;
+
+    --group-blue: #60a5fa;
+    --group-red: #f87171;
+    --group-yellow: #facc15;
+    --group-purple: #c084fc;
+    --group-pink: #f472b6;
+    --group-orange: #fb923c;
+    --group-cyan: #22d3ee;
+    --group-grey: #94a3b8;
+    --group-green: var(--success);
+  }
+}

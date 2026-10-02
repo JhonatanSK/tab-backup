@@ -1,0 +1,296 @@
+{
+  "extensionDescription": {
+    "message": "Automatically back up and restore tabs, windows and groups. Local-first, no account. Export backups to keep a separate copy."
+  },
+  "brand": {
+    "message": "TabBackup"
+  },
+  "tagline": {
+    "message": "Your tabs, automatically backed up."
+  },
+  "library": {
+    "message": "Backup library"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "privacy": {
+    "message": "Your tab data stays on this device."
+  },
+  "free": {
+    "message": "FREE · LOCAL"
+  },
+  "protected": {
+    "message": "Protected ✓"
+  },
+  "paused": {
+    "message": "Automatic backup paused"
+  },
+  "firstNeeded": {
+    "message": "Create your first backup"
+  },
+  "attention": {
+    "message": "Backup needs attention"
+  },
+  "lastBackup": {
+    "message": "Last backup: $1"
+  },
+  "never": {
+    "message": "Not yet"
+  },
+  "backupNow": {
+    "message": "Backup now"
+  },
+  "backupCreated": {
+    "message": "Backup created."
+  },
+  "unchanged": {
+    "message": "No changes since your last backup."
+  },
+  "recent": {
+    "message": "Recent snapshots"
+  },
+  "viewAll": {
+    "message": "View all backups"
+  },
+  "snapshots": {
+    "message": "Snapshots"
+  },
+  "tabs": {
+    "message": "Tabs"
+  },
+  "windows": {
+    "message": "Windows"
+  },
+  "groups": {
+    "message": "Groups"
+  },
+  "summary": {
+    "message": "$1 tabs · $2 windows · $3 groups"
+  },
+  "search": {
+    "message": "Filter saved snapshots by title or URL"
+  },
+  "searchLabel": {
+    "message": "Find a backup"
+  },
+  "empty": {
+    "message": "Your next fresh start begins here."
+  },
+  "emptyBody": {
+    "message": "Create a backup to save your open tabs, windows and groups."
+  },
+  "noResults": {
+    "message": "No backups match your search."
+  },
+  "restoreAll": {
+    "message": "Restore all"
+  },
+  "export": {
+    "message": "Export"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "exportAll": {
+    "message": "Export all"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "importFile": {
+    "message": "Choose a .tabbackup.json file"
+  },
+  "deleteAll": {
+    "message": "Delete all backups"
+  },
+  "automatic": {
+    "message": "Automatic backup"
+  },
+  "automaticHelp": {
+    "message": "Save changes after a short pause, with a recovery check every 15 minutes."
+  },
+  "retention": {
+    "message": "Retention"
+  },
+  "retentionHelp": {
+    "message": "Free keeps your latest $1 distinct snapshots. Older snapshots expire when new ones are saved."
+  },
+  "storage": {
+    "message": "Storage usage"
+  },
+  "storageHelp": {
+    "message": "$1 MiB of $2 MiB application budget. Browser quota also applies."
+  },
+  "localWarning": {
+    "message": "Internal backups are removed if you uninstall TabBackup. Export a file for a separate copy."
+  },
+  "urlWarning": {
+    "message": "Backup files are unencrypted. URLs and titles can contain sensitive information. Keep exported files private."
+  },
+  "limits": {
+    "message": "Restores open new windows. Unsaved forms, page state, scroll position and lost sign-ins cannot be recovered. Internal pages and unsupported URLs are skipped. Restored sites may load over the network."
+  },
+  "restoreResult": {
+    "message": "Restored: $1 tabs, $2 windows, $3 groups."
+  },
+  "restoreDetails": {
+    "message": "Skipped: $1 unsupported URLs. Failed: $2 tabs. Verified: $3 tabs. Warnings: $4."
+  },
+  "interrupted": {
+    "message": "Restore was interrupted. Counts reflect confirmed progress only. Check opened windows before trying again."
+  },
+  "restoreRunning": {
+    "message": "A restore is in progress. Keep Chrome open."
+  },
+  "window": {
+    "message": "Window $1"
+  },
+  "pinned": {
+    "message": "Pinned"
+  },
+  "unsupported": {
+    "message": "Unsupported URL"
+  },
+  "automatic_change": {
+    "message": "Automatic"
+  },
+  "periodic": {
+    "message": "Safety check"
+  },
+  "browser_start": {
+    "message": "Browser start"
+  },
+  "manual": {
+    "message": "Manual"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirmDelete": {
+    "message": "Delete this snapshot? This cannot be undone."
+  },
+  "confirmDeleteAll": {
+    "message": "Delete all snapshots? Export a copy first if you want to keep them. Automatic backups can create new snapshots afterward."
+  },
+  "importPreview": {
+    "message": "Review your backup"
+  },
+  "backupDate": {
+    "message": "Backup created: $1"
+  },
+  "exportDate": {
+    "message": "Exported: $1"
+  },
+  "importImpact": {
+    "message": "$1 snapshots will be added; $2 duplicates skipped; $3 ID conflicts renamed; $4 snapshots removed by retention."
+  },
+  "imported": {
+    "message": "Imported $1 snapshots. Skipped $2 duplicates."
+  },
+  "downloadStarted": {
+    "message": "Backup file download started. Check your downloads."
+  },
+  "invalidBackup": {
+    "message": "This backup file is invalid or unsupported."
+  },
+  "storageError": {
+    "message": "Backup couldn't be saved. Storage is unavailable. Your existing backups have not been intentionally removed. Try again or export a copy."
+  },
+  "migrationError": {
+    "message": "Some stored backups use an unsupported or damaged format. Data has been preserved. Keep this extension installed and contact the publisher before changing storage."
+  },
+  "quotaError": {
+    "message": "Backup couldn't be saved. The storage budget is full. Export your backups, then remove older snapshots and try again."
+  },
+  "captureError": {
+    "message": "Your tabs changed during backup. Automatic backup will retry; you can also try again."
+  },
+  "emptyBackup": {
+    "message": "There are no supported tab records to back up in normal windows."
+  },
+  "genericError": {
+    "message": "Something went wrong. Try again. If a restore was running, check its status before retrying."
+  },
+  "busy": {
+    "message": "A restore is already running. Please wait."
+  },
+  "working": {
+    "message": "Working…"
+  },
+  "onboardTitle1": {
+    "message": "Never lose your tabs again."
+  },
+  "onboardBody1": {
+    "message": "TabBackup automatically saves your open tabs, windows and groups."
+  },
+  "onboardTitle2": {
+    "message": "Local by default."
+  },
+  "onboardBody2": {
+    "message": "Your browsing data stays on your device. No account. No cloud upload."
+  },
+  "onboardTitle3": {
+    "message": "You’re protected."
+  },
+  "onboardBody3": {
+    "message": "Automatic backups are enabled. Create a first snapshot and export important backups for safekeeping."
+  },
+  "createFirst": {
+    "message": "Create first backup"
+  },
+  "next": {
+    "message": "Next"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "step": {
+    "message": "Step $1 of 3"
+  },
+  "learnPrivacy": {
+    "message": "Privacy & restore limits"
+  },
+  "incognito": {
+    "message": "Incognito windows are excluded. TabBackup does not access page content, cookies or site storage."
+  },
+  "persistence": {
+    "message": "Ask browser to protect local storage"
+  },
+  "persistent": {
+    "message": "Browser storage persistence granted. Exported copies are still recommended."
+  },
+  "notPersistent": {
+    "message": "Persistence was not granted. Export important backups regularly."
+  },
+  "verifiedHelp": {
+    "message": "Verification checks Chrome tab structure immediately after creation; it does not verify page content or successful site loading."
+  },
+  "snapshotAt": {
+    "message": "Snapshot from $1"
+  },
+  "detail": {
+    "message": "Snapshot details"
+  },
+  "kept": {
+    "message": "$1 of $2 snapshots"
+  },
+  "privacyHeading": {
+    "message": "Local by design"
+  },
+  "privacyBody": {
+    "message": "No account, cloud upload, remote analytics, advertising or sale of data. TabBackup stores tab URLs and optional titles, pinned state, order, and window/group structure solely to back up and restore your tabs. Recognizable URL credentials are redacted; other sensitive URL information may remain."
+  },
+  "on": {
+    "message": "On"
+  },
+  "off": {
+    "message": "Off"
+  },
+  "previewChanged": {
+    "message": "Your backup library changed after the preview. Choose the file again to review the updated import."
+  },
+  "retry": {
+    "message": "Try again"
+  }
+}

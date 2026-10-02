@@ -1,0 +1,296 @@
+{
+  "extensionDescription": {
+    "message": "Backup e restauração de abas, janelas e grupos. Local, sem conta. Exporte backups para guardar uma cópia separada."
+  },
+  "brand": {
+    "message": "TabBackup"
+  },
+  "tagline": {
+    "message": "Suas abas, salvas automaticamente."
+  },
+  "library": {
+    "message": "Biblioteca de backups"
+  },
+  "settings": {
+    "message": "Configurações"
+  },
+  "privacy": {
+    "message": "Os dados das suas abas ficam neste dispositivo."
+  },
+  "free": {
+    "message": "GRÁTIS · LOCAL"
+  },
+  "protected": {
+    "message": "Protegido ✓"
+  },
+  "paused": {
+    "message": "Backup automático pausado"
+  },
+  "firstNeeded": {
+    "message": "Crie seu primeiro backup"
+  },
+  "attention": {
+    "message": "O backup precisa de atenção"
+  },
+  "lastBackup": {
+    "message": "Último backup: $1"
+  },
+  "never": {
+    "message": "Ainda não"
+  },
+  "backupNow": {
+    "message": "Fazer backup"
+  },
+  "backupCreated": {
+    "message": "Backup criado."
+  },
+  "unchanged": {
+    "message": "Nenhuma alteração desde o último backup."
+  },
+  "recent": {
+    "message": "Snapshots recentes"
+  },
+  "viewAll": {
+    "message": "Ver todos os backups"
+  },
+  "snapshots": {
+    "message": "Snapshots"
+  },
+  "tabs": {
+    "message": "Abas"
+  },
+  "windows": {
+    "message": "Janelas"
+  },
+  "groups": {
+    "message": "Grupos"
+  },
+  "search": {
+    "message": "Filtrar por título ou URL"
+  },
+  "searchLabel": {
+    "message": "Encontrar backup"
+  },
+  "empty": {
+    "message": "Um recomeço tranquilo começa aqui."
+  },
+  "emptyBody": {
+    "message": "Crie um backup para salvar suas abas, janelas e grupos abertos."
+  },
+  "noResults": {
+    "message": "Nenhum backup corresponde à busca."
+  },
+  "restoreAll": {
+    "message": "Restaurar tudo"
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "delete": {
+    "message": "Excluir"
+  },
+  "exportAll": {
+    "message": "Exportar tudo"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "importFile": {
+    "message": "Escolher arquivo .tabbackup.json"
+  },
+  "deleteAll": {
+    "message": "Excluir todos os backups"
+  },
+  "automatic": {
+    "message": "Backup automático"
+  },
+  "automaticHelp": {
+    "message": "Salva alterações após uma breve pausa, com verificação de segurança a cada 15 minutos."
+  },
+  "retention": {
+    "message": "Retenção"
+  },
+  "retentionHelp": {
+    "message": "O plano grátis mantém os $1 snapshots distintos mais recentes. Os mais antigos expiram ao salvar novos."
+  },
+  "storage": {
+    "message": "Uso de armazenamento"
+  },
+  "storageHelp": {
+    "message": "$1 MiB do limite de $2 MiB do aplicativo. A cota do navegador também se aplica."
+  },
+  "localWarning": {
+    "message": "Backups internos são removidos ao desinstalar o TabBackup. Exporte um arquivo para ter uma cópia separada."
+  },
+  "urlWarning": {
+    "message": "Arquivos de backup não são criptografados. URLs e títulos podem conter dados sensíveis. Mantenha os arquivos exportados em segurança."
+  },
+  "limits": {
+    "message": "A restauração abre novas janelas. Formulários não enviados, estado de páginas, rolagem e logins perdidos não são recuperados. Páginas internas e URLs incompatíveis são ignoradas. Os sites restaurados podem acessar a rede."
+  },
+  "restoreResult": {
+    "message": "Restaurados: $1 abas, $2 janelas, $3 grupos."
+  },
+  "restoreDetails": {
+    "message": "Ignorados: $1 URLs incompatíveis. Falhas: $2 abas. Verificadas: $3 abas. Avisos: $4."
+  },
+  "interrupted": {
+    "message": "A restauração foi interrompida. A contagem reflete apenas o progresso confirmado. Confira as janelas abertas antes de tentar novamente."
+  },
+  "restoreRunning": {
+    "message": "Restauração em andamento. Mantenha o Chrome aberto."
+  },
+  "window": {
+    "message": "Janela $1"
+  },
+  "pinned": {
+    "message": "Fixada"
+  },
+  "unsupported": {
+    "message": "URL incompatível"
+  },
+  "automatic_change": {
+    "message": "Automático"
+  },
+  "periodic": {
+    "message": "Verificação de segurança"
+  },
+  "browser_start": {
+    "message": "Início do navegador"
+  },
+  "manual": {
+    "message": "Manual"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "confirmDelete": {
+    "message": "Excluir este snapshot? Esta ação não pode ser desfeita."
+  },
+  "confirmDeleteAll": {
+    "message": "Excluir todos os snapshots? Exporte uma cópia antes se quiser mantê-los. O backup automático poderá criar novos snapshots."
+  },
+  "importPreview": {
+    "message": "Revise seu backup"
+  },
+  "backupDate": {
+    "message": "Backup criado: $1"
+  },
+  "exportDate": {
+    "message": "Exportado: $1"
+  },
+  "importImpact": {
+    "message": "$1 snapshots serão adicionados; $2 duplicatas ignoradas; $3 conflitos de ID renomeados; $4 snapshots removidos pela retenção."
+  },
+  "imported": {
+    "message": "Importados $1 snapshots. Ignoradas $2 duplicatas."
+  },
+  "downloadStarted": {
+    "message": "Download iniciado. Confira seus downloads."
+  },
+  "invalidBackup": {
+    "message": "Este arquivo de backup é inválido ou incompatível."
+  },
+  "storageError": {
+    "message": "Não foi possível salvar. O armazenamento está indisponível. Seus backups existentes não foram removidos intencionalmente. Tente novamente ou exporte uma cópia."
+  },
+  "migrationError": {
+    "message": "Há backups armazenados com formato incompatível ou danificado. Os dados foram preservados. Mantenha a extensão instalada e contate o publicador antes de alterar o armazenamento."
+  },
+  "quotaError": {
+    "message": "Não foi possível salvar. O limite de armazenamento foi atingido. Exporte seus backups, remova snapshots antigos e tente novamente."
+  },
+  "captureError": {
+    "message": "Suas abas mudaram durante o backup. O backup automático tentará novamente; você também pode tentar."
+  },
+  "emptyBackup": {
+    "message": "Não há registros de abas compatíveis para salvar em janelas normais."
+  },
+  "genericError": {
+    "message": "Algo deu errado. Tente novamente. Se uma restauração estava em andamento, confira seu estado antes de tentar outra vez."
+  },
+  "busy": {
+    "message": "Uma restauração já está em andamento. Aguarde."
+  },
+  "working": {
+    "message": "Processando…"
+  },
+  "onboardTitle1": {
+    "message": "Não perca suas abas de novo."
+  },
+  "onboardBody1": {
+    "message": "O TabBackup salva automaticamente suas abas, janelas e grupos abertos."
+  },
+  "onboardTitle2": {
+    "message": "Local por padrão."
+  },
+  "onboardBody2": {
+    "message": "Seus dados de navegação ficam no dispositivo. Sem conta. Sem envio à nuvem."
+  },
+  "onboardTitle3": {
+    "message": "Você está protegido."
+  },
+  "onboardBody3": {
+    "message": "Backups automáticos estão ativados. Crie o primeiro snapshot e exporte backups importantes."
+  },
+  "createFirst": {
+    "message": "Criar primeiro backup"
+  },
+  "next": {
+    "message": "Próximo"
+  },
+  "back": {
+    "message": "Voltar"
+  },
+  "step": {
+    "message": "Etapa $1 de 3"
+  },
+  "learnPrivacy": {
+    "message": "Privacidade e limites"
+  },
+  "incognito": {
+    "message": "Janelas anônimas são excluídas. O TabBackup não acessa conteúdo de páginas, cookies ou armazenamento dos sites."
+  },
+  "persistence": {
+    "message": "Solicitar proteção do armazenamento local"
+  },
+  "persistent": {
+    "message": "O navegador concedeu persistência ao armazenamento. Ainda recomendamos cópias exportadas."
+  },
+  "notPersistent": {
+    "message": "Persistência não concedida. Exporte backups importantes regularmente."
+  },
+  "verifiedHelp": {
+    "message": "A verificação confere a estrutura das abas no Chrome após criá-las; não verifica conteúdo nem carregamento dos sites."
+  },
+  "snapshotAt": {
+    "message": "Snapshot de $1"
+  },
+  "detail": {
+    "message": "Detalhes do snapshot"
+  },
+  "kept": {
+    "message": "$1 de $2 snapshots"
+  },
+  "privacyHeading": {
+    "message": "Feito para ser local"
+  },
+  "privacyBody": {
+    "message": "Sem conta, envio à nuvem, analytics remoto, anúncios ou venda de dados. O TabBackup armazena URLs e títulos opcionais, fixação, ordem e estrutura de janelas e grupos apenas para backup e restauração. Credenciais reconhecíveis nas URLs são removidas; outras informações sensíveis podem permanecer."
+  },
+  "on": {
+    "message": "Ativado"
+  },
+  "off": {
+    "message": "Desativado"
+  },
+  "summary": {
+    "message": "$1 abas · $2 janelas · $3 grupos"
+  },
+  "previewChanged": {
+    "message": "A biblioteca mudou após a prévia. Escolha o arquivo novamente para revisar a importação atualizada."
+  },
+  "retry": {
+    "message": "Tentar novamente"
+  }
+}
